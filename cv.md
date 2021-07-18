@@ -4,7 +4,14 @@
 * [GitHub](https://github.com/D3athb3rry)
 ---
 ###Personal qualities:
-Perseverance, attentiveness, responsibility, analytical mindset, ability to work with large amounts of information, accuracy, ability teamwork, self-organization
+* Perseverance 
+* Attentiveness 
+* Responsibility 
+* Analytical mindset 
+* Ability to work with large amounts of information 
+* Accuracy 
+* Teamworking 
+* Self-organization
 ---
 ###Skills (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
 ---
