@@ -1,9 +1,11 @@
 # Dmytryi Polkhovskyi
-* E-mail: polkhovskij.dmitrij@gmail.com
-* [GitHub](https://github.com/D3athb3rry)
+* :email: polkhovskij.dmitrij@gmail.com
+* :black_circle: [GitHub](https://github.com/D3athb3rry)
 ---
-## Skills ##
-языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете
+## Experience
+A specialist in working with financial documents of varying complexity. Experienced specialist in Economics with a passion for development in information technology industry
+## Skills
+HTML Basics, Markdown, CSS Basics, Git, C
 ## Personal qualities: 
 * Perseverance 
 * Attentiveness 
@@ -11,10 +13,10 @@
 * Analytical mindset 
 * Ability to work with large amounts of information 
 * Accuracy 
-* Teamworking 
+* Teamwork
 * Self-organization
-## Примеры кода ##
-```
+## Code snippets
+```javascript
   const trav = (currNode) => {
       if (currNode === null) {
         return;
@@ -28,9 +30,7 @@
     trav(root);
     return root;
 ```
-## Experience
-Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
 ## Education
-* National Aerospace University – Kharkiv Aviation Institute - Master of Economics (включая курсы, семинары, лекции, онлайн-обучение)
+* National Aerospace University – Kharkiv Aviation Institute - Master of Economics
 ## English
 * Limited work proficiency (B1)
