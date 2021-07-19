@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color:#68eef3
+    }
+    table {
+        width: 300px;
+        border: 1px solid  #2196F3;
+        margin: auto;
+       }
+       td {
+        text-align: center;
+       }   
+.snippet {
+    border: 5px solid #2196F3;
+    margin: 0 400px 0 400px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+  }
+.education {
+    display: flex;
+    justify-content: center;
+  }
+.english {
+    display: flex;
+    justify-content: center;
+  }
