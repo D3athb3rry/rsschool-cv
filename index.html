@@ -18,19 +18,19 @@
         <section class="contacts">
           <h2 class="section_title">Contacts</h2>
           <ul class="contact_list">
-            <li>
-              E-mail:</li><a>polkhovskij.dmitrij@gmail.com</a>
-            </li>
-            <li>
-              Github:</br><a href="https://github.com/D3athb3rry">https://github.com/D3athb3rry</a>
-            </li>
+            <li>Email:<br><a>polkhovskij.dmitrij@gmail.com</a></li>
+            <li>Github:<br><a href="https://github.com/D3athb3rry">https://github.com/D3athb3rry</a></li>
+            <li>Discord:<br>Deathberry#5839</a></li>
           </ul>
         </section>
         <section class="education">
           <h2 class="section_title">Education</h2>
           <ul class="education_list">
-            <li>2011-2015</br>National Aerospace University H.E. Zhukovsky "Kharkiv Aviation Institute"</br>Master of
-              Economics, Business Economics</li>
+            <li>2011-2015<br>
+              National Aerospace University H.E. Zhukovsky "Kharkiv Aviation Institute"<br>
+              Master of Economics, Business Economics
+            </li>
+          </ul>
         </section>
     </div>
     <div class="right">
@@ -43,14 +43,14 @@
         <p>A specialist in working with financial documents of varying complexity. Experienced specialist in Economics
           with a passion for development in information technology industry</p>
       </section>
-      <section class="skills"></section>
+      <section class="skills">
       <h2 class="section_title">Skills</h2>
       <ul>
         <li>HTML Basics</li>
         <li>Markdown</li>
         <li>CSS Basics</li>
         <li>Git</li>
-        <li>C</li>
+        <li>C+</li>
         <li>English - Limited work proficiency (B1)</li>
       </ul>
       </section>
@@ -70,21 +70,34 @@
       <section class="code_example">
         <h2 class="section_title">Code Example</h2>
         <details>
-          <summary>Some details</summary>
+          <summary>Typical Arrays Problems</summary>
           <pre>
-          <code>
-         const trav = (currNode) => {
-             if (currNode === null) {
-               return;
-             }
-             const temp = currNode.lNode;
-             currNode.lNode = currNode.rNode;
-             currNode.rNode = temp;
-             trav(currNode.lNode);
-             trav(currNode.rNode);
-           };
-           trav(root);
-           return root;
+          <code>   
+function min (array) {
+  if (array===undefined||array.length===0) {
+    return 0;
+  } 
+  else if (array.length > 0)
+  return Math.min(...array);
+}
+
+function max (array) {   
+  if (array===undefined||array.length===0) {
+    return 0;
+  }
+  else if (array.length > 0){
+    return Math.max(...array);
+  }
+}
+
+function avg (array) {
+  if (array===undefined||array.length===0) {
+    return 0;
+  }
+  else if (array.length > 0){
+  return array.reduce((a,b) => a + b, 0) / array.length;
+  }
+}
             </code>
         </pre>
         </details>
@@ -92,7 +105,7 @@
     </div>
   </main>
   <footer class="footer">
-    <a class="footer_github" href="https://github.com/D3athb3rry" target="_blank"><img src="G:\RSSchool\rsschool-cv\static\github-logo.svg" width="32" height="32"
+    <a class="footer_github" href="https://github.com/D3athb3rry" target="_blank"><img src="G:/RSSchool/rsschool-cv/static/github-logo.svg" width="32" height="32"
       alt="RS School"></a>
     <p class="footer_year">2021</p>
     <a class="footer_rslogo" href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" width="80" height="30"
