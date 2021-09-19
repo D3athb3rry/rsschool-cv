@@ -1,82 +1,122 @@
-body {
-  background-image: url(static/background.png);
-  background-position: center;
-  background-size: cover;
-  color: #ffffff;
-  text-align: center;
-    }
-    table {
-        width: 300px;
-        border: 1px solid  #63aa3a;
-        margin: auto;
-       }
-       td {
-        text-align: center;
-       }   
-main {
-  margin-left: 5rem;
-  padding: 1rem;
- 
-}
-.navbar {
-  width: 5rem;
-  height: 100vh;
-  position:fixed;
-  background-color: rgb(0, 0, 0);
-  transition: width 200ms ease;
-}
-.navbar-nav {
-  list-style: none;
-  padding: 0;
+.page {
+  min-width: 940px;
+  height: 100%;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.nav-link {
-  display: flex;
-  align-items: center;
-  height: 5rem;
-  color: #0dafc2;
+  padding: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: black;
+  }
+.page_body {
+  min-height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0;
+  }
+.page_body a {
+  color: white;
   text-decoration: none;
-}
-.link-text {
- display: none;
-}
-.navbar:hover {
-  width: 16rem;
-}
-.navbar:hover .link-text {
- display: block;
-}
-h1{
-  font-family: RickMorty;
-  color: #0dafc2;
   }
-h2{
-  font-family: RickMorty;
-  color: #0dafc2;
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
   }
-.snippet {
-    border: 5px solid #63aa3a;
-    background-color: rgba(116, 250, 149, 0.5);
-    margin: 0 500px 0 500px;
-    text-align: left;
+.section_title {
+  position: relative;
+  margin: 0;
+  margin-bottom: 36px;
+  padding-left: 60px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  }
+  /*left side*/
+.left {
+  color: white;
+  background-color: #01276e;
+  }
+.left figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 444px;
+  background-color: #01276e;
+  }
+.left .section_title {
+  background-color: rgba(255, 255, 255, 0.1);
+  } 
+.right .section_title {
+  background-color: rgba(17, 0, 255, 0.1);
+  } 
+.left li {
+  list-style-type: none; 
+  }
+  /*right side*/
+.main_title {
+  margin: 125px 80px 125px 60px;
 }
-.list {
-    display: flex;
-    justify-content: center;
+.name {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.main_title p {
+  font-size: 20px;
+}
+.experience {
+  padding: 0;
+  margin-bottom: 54px;
   }
-.education {
-    display: flex;
-    justify-content: center;
+  .experience p {
+    margin: 0 60px 0 60px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
   }
-.english {
-    display: flex;
-    justify-content: center;
+.skills {
+  margin-bottom: 54px;
   }
-
-  @font-face {
-    font-family: RickMorty;
-    src: url(fonts/get_schwifty.ttf); 
-    } 
+.skills__list {
+  margin-left: 60px;
+  padding: 0;
+  padding-left: 20px;
+  }
+.qualities {
+  margin-bottom: 54px;
+  }
+.code_example {
+  margin-bottom: 54px;
+  }
+.code_example details {
+  margin: 0px 60px;
+  cursor: pointer;
+  }
+.code_example pre {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 14px;
+  background-color: rgba(131, 123, 240, 0.1);
+  }
+/*footer*/
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: rgb(0, 0, 0);
+  background-color: #74a5ff;
+  }
+.footer_github {
+  justify-self: start;
+  }
+.footer_year {
+  justify-self: center;
+  }
+.footer_rslogo {
+  justify-self: end;
+  }
